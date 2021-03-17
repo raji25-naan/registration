@@ -1,15 +1,4 @@
-<<<<<<< HEAD
-const { Router } = require('express');
-const express = require('express');
-const { updateOne } = require('./infoschema');
-const infoschema = require('./infoschema');
-const router = express.Router();
 
-
-// router.get('/',(req,res)=>{
-    
-//     console.log("hai world");
-// });
 
 
 router.post('/post', async (req, res)=> {
